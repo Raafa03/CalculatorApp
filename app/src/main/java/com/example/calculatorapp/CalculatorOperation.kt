@@ -1,4 +1,4 @@
-package com.example.calculatorapp.ui.theme
+package com.example.calculatorapp
 
 sealed class CalculatorOperation (val symbol: String) {
     object Add: CalculatorOperation("+")
